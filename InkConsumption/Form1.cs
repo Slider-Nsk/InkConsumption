@@ -25,7 +25,8 @@ namespace InkConsumption
             if (comboBox1.SelectedIndex == comboBox1.Items.Count - 1)
             {
                 Form_Add_Etiketka f2 = new Form_Add_Etiketka();
-                f2.Show();
+                f2.Owner = this;
+                f2.ShowDialog();
             }
             //MessageBox.Show("Hello","World",MessageBoxButtons.OK);
         }

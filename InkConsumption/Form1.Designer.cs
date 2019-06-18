@@ -68,19 +68,19 @@
             // сохранитьПроектToolStripMenuItem
             // 
             this.сохранитьПроектToolStripMenuItem.Name = "сохранитьПроектToolStripMenuItem";
-            this.сохранитьПроектToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.сохранитьПроектToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.сохранитьПроектToolStripMenuItem.Text = "Сохранить Проект...";
             // 
             // загрузитьПроектToolStripMenuItem
             // 
             this.загрузитьПроектToolStripMenuItem.Name = "загрузитьПроектToolStripMenuItem";
-            this.загрузитьПроектToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.загрузитьПроектToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.загрузитьПроектToolStripMenuItem.Text = "Загрузить Проект...";
             // 
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.ВыходToolStripMenuItem_Click);
             // 
@@ -194,7 +194,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
